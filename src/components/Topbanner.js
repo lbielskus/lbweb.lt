@@ -39,7 +39,7 @@ const Topbanner = () => {
                 </Link>
                 <Link href='https://www.fiverr.com/liu600/create-your-mobile-responsive-website-using-reactjs'>
                   <Image
-                    src='/images/fiverr.png'
+                    src='https://res.cloudinary.com/dcknlnne1/image/upload/v1727997054/lweb/rnfxxurdljmiaoqaemgi.png'
                     alt='Fiverr'
                     width={100}
                     height={100}

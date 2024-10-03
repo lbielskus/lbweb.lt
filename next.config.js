@@ -9,5 +9,7 @@ module.exports = {
   },
   images: {
     domains: ['lbweb.lt'],
+
+    domains: ['res.cloudinary.com'],
   },
 };
