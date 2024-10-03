@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styles from '../assets/styles/topbanner.module.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Topbanner = () => {
   const [showBanner, setShowBanner] = useState(true);
@@ -38,9 +38,11 @@ const Topbanner = () => {
                   <FaLinkedin className={styles.socialLogos} />
                 </Link>
                 <Link href='https://www.fiverr.com/liu600/create-your-mobile-responsive-website-using-reactjs'>
-                  <img
+                  <Image
                     src='/images/fiverr.png'
                     alt='Fiverr'
+                    width={100}
+                    height={100}
                     className={styles.fiverrLogo}
                   />
                 </Link>
