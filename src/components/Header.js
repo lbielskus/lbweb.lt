@@ -57,7 +57,7 @@ const Header = () => {
         <div className={styles.screenshot}>
           <img
             className={styles.myScreen}
-            src='/images/Screenshot1000px.png'
+            src='https://res.cloudinary.com/dcknlnne1/image/upload/v1727997075/lweb/x8b76skmpihrjyzzbavh.png'
             alt='Screenshot'
           />
         </div>
@@ -65,12 +65,12 @@ const Header = () => {
           <div className={styles.faceContent}>
             <img
               className={styles.myFace}
-              src='/images/myface2.png'
+              src='https://res.cloudinary.com/dcknlnne1/image/upload/v1727997059/lweb/yfelgco3opszw39wsngo.png'
               alt='My Face'
             />
             <animated.img
               className={styles.pupils}
-              src='/images/pupils2.png'
+              src='https://res.cloudinary.com/dcknlnne1/image/upload/v1727997060/lweb/grm3e9jswjoiy0zzcvza.png'
               alt='Pupils'
               style={pupilsAnimation}
             />

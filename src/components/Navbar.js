@@ -18,7 +18,10 @@ const Navbar = () => {
       <div className={styles.navbarLogo}>
         <Link href='/' passHref>
           <div onClick={handleLinkClick}>
-            <img src='/images/portfoliologo.png' alt='LB Web Logo' />
+            <img
+              src='https://res.cloudinary.com/dcknlnne1/image/upload/v1727997060/lweb/tkraxnj8dcw8p0egbbwe.png'
+              alt='LB Web Logo'
+            />
           </div>
         </Link>
       </div>
